@@ -23,13 +23,13 @@ const amqpAddress = process.env.AMQP_URL || 'amqp://localhost:5673';
         const message = {
             id: 123,
             email: 'email@eniodomain.com',
-            name: 'Enio Test',
+            name: 'Enio Teste',
             phone: '(+55)123456789',
             address: {
                 street: 'Rua Joaozinho',
                 number: '123',
                 district: 'Center',
-                city: 'Salvador',
+                city: 'Pinda',
                 state: 'Bahia'
             }
         };
